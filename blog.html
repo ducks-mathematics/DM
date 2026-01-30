@@ -6,10 +6,41 @@
   <title>Blogs | Duck’s Mathematics</title>
 
   <!-- SEO -->
-  <meta name="description" content="Explore simple, beautiful explanations of science and mathematics — from quantum mechanics to the mysteries of nature.">
+  <meta name="description" content="Duck's Mathematics Blogs — coming soon! Exciting science and math content will be added shortly.">
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Small animation for "Coming Soon" */
+    .coming-soon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 1.5em;
+      gap: 20px;
+      animation: floatText 2s ease-in-out infinite alternate;
+    }
+
+    .coming-soon span {
+      color: #00ffff;
+      font-weight: 600;
+      animation: blink 1.5s infinite;
+    }
+
+    @keyframes floatText {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+
+    @keyframes blink {
+      0%, 50%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0.3; }
+    }
+  </style>
 </head>
 <body>
 
@@ -21,34 +52,14 @@
 
 <section class="glass-box">
   <h1>Duck’s Mathematics Blogs</h1>
-  <p><strong>Learn your way — simple, curious, and full of wonder.</strong></p>
-  <p>Read our latest science and math stories explained in everyday language.</p>
-
-  <div class="blog-list">
-
-    <article class="blog-card">
-      <img src="https://i.ibb.co.com/gMFxVyDj/IMG-20260111-082930.jpg" alt="Quantum superposition concept" />
-      <div class="blog-content">
-        <h2><a href="blog-superposition.html">Superposition Made Simple</a></h2>
-        <p>Discover how particles can exist in multiple states at once — a key idea that powers quantum computers, lasers, and more.</p>
-        <a href="blog-superposition.html" class="btn">Read More →</a>
-      </div>
-    </article>
-
-    <article class="blog-card">
-      <img src="https://i.ibb.co.com/SmZ5bFZ/IMG-20260115-084125.jpg" alt="Quantum mechanics illustration" />
-      <div class="blog-content">
-        <h2><a href="blog-quantum.html">What Is Quantum Mechanics?</a></h2>
-        <p>An easy and deep introduction to the most mind-bending branch of physics — where reality behaves in probabilities.</p>
-        <a href="blog-quantum.html" class="btn">Read More →</a>
-      </div>
-    </article>
-
+  <div class="coming-soon">
+    <p>Our amazing blogs will be added soon!</p>
+    <span>Stay tuned ✨</span>
   </div>
 </section>
 
 <footer>
-  <p>© Duck’s Mathematics since 2025 | Learn Your Way</p>
+  <p>© 2025–2026 Duck’s Mathematics | Learn Your Way</p>
 </footer>
 
 </body>
